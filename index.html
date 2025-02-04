@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Invertis University Admission Form</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="logo.svg" alt="Invertis University Logo" width="200">
+            <h1>Welcome to Invertis University</h1>
+        </header>
+
+        <section>
+            <h2>About Invertis University</h2>
+            <p>Invertis University, Bareilly is one of the best private universities in India that focuses on holistic
+                life skills, professional development, and high-quality education to produce exceptional students who
+                consistently achieve outstanding academic results.</p>
+        </section>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Your Email" name="email" required><br><br>
+
+            <label for="phone">Mobile No:</label>
+            <select id="country-code" name="country-code" required>
+                <option value="+91">+91</option>
+                <option value="+1">+1 </option>
+                <option value="+44">+44</option>
+            </select>
+            <input type="tel" id="phone" placeholder="Enter Your Mobile Num" name="phone" required><br><br>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="btech">B.Tech</option>
+                <option value="mtech">M.Tech</option>
+                <option value="mba">MBA</option>
+                <option value="bba">BBA</option>
+                <option value="bca">BCA</option>
+            </select><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+            <input type="radio" id="other" name="gender" value="other"> Other<br><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" placeholder="Enter Your Address" rows="1" required></textarea><br><br>
+
+            <label for="documents">Upload Documents:</label>
+            <input type="file" id="documents" name="documents" multiple required><br><br>
+
+            <label for="password">Create Password:</label>
+            <input type="password" id="password" placeholder="Create Password" name="password" required><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+
+        <p><a href="fees.html" target="_blank">Click here to view the fee structure of each course</a></p>
+
+        <footer>
+            <h3>Contact Information</h3>
+            <p>Invertis University, Bareilly, India</p>
+            <p>Email: info@invertisuniversity.ac.in</p>
+            <p>Phone: +91-1234567890</p>
+        </footer>
+    </body>
+
+    </html>
+</body>
+
+</html>
